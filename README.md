@@ -8,7 +8,7 @@ This example shows how to feed an image to a convolutional neural network and di
 different layers of the network. Examine the activations and discover which features the network learns by 
 comparing areas of activation with the original image (buttercup.jpg). Find out that channels in earlier layers learn simple 
 features like colour and edges, while channels in the deeper layers learn complex features like eyes. 
-Following this example allows for identification of features helps us understand what the network has learned. 
+Following this example allows for identification of features to help us understand what the network has learned. 
 
 When the final testing image buttercupSpider.jpg is used in comparison to the orginal buttercup.jpg; 
 it can be observed from the activations that both channels 14 and 47 activate on the area where the spider 
