@@ -76,7 +76,6 @@ act6Closed = reshape(act6Closed,[sz(1),sz(2),1,sz(3)]);
 
 
 
-
 %Plot the images and activations in one figure.
 
 channelsClosed = repmat(imresize(mat2gray(act6Closed(:,:,:,[14 47])),imgSize),[1 1 3]);
